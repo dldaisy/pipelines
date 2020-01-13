@@ -177,7 +177,6 @@ class TensorboardViewer extends Viewer<TensorboardViewerProps, TensorboardViewer
         {!this.state.podAddress && (
           <div>
             <div className={padding(30, 'b')}>
-              class
               <FormControl className={css.formControl}>
                 <InputLabel htmlFor='grouped-select'>TF Version</InputLabel>
                 <Select
